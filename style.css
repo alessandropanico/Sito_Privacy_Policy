@@ -39,14 +39,17 @@ header p {
     text-decoration: underline;
 }
 
+/* Regole Footer Aggiornate per corrispondere allo style e all'HTML */
 footer {
     color: white;
     background: linear-gradient(90deg, #575757, #202020);
     display: flex;
     justify-content: space-around;
-    font-size: 18px;
-    position: fixed;
-    bottom: 0;
+    align-items: center;
+    /* Centra verticalmente */
+    font-size: 16px;
+    /* Leggermente ridotto per compattezza */
+    /* Rimosso position: fixed per non coprire il contenuto in fondo */
     width: 100%;
 }
 

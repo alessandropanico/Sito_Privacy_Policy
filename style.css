@@ -46,10 +46,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* Centra verticalmente */
     font-size: 16px;
-    /* Leggermente ridotto per compattezza */
-    /* Rimosso position: fixed per non coprire il contenuto in fondo */
     width: 100%;
 }
 
@@ -76,4 +73,27 @@ footer a::after {
 
 footer a:hover::after {
     width: 100%;
+}
+
+.contFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+@media screen and (max-width:600px) {
+
+    footer {
+        flex-direction: column;
+    }
+
+    .contFooter {
+        gap: 2vw;
+    }
+
+}
+
+a{ 
+    text-decoration: none !important;
 }

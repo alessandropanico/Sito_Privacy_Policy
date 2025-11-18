@@ -15,26 +15,31 @@
         <h1>Manga Chronicles Privacy Policy</h1>
     </header>
     <div class="container my-5">
-        <p class="text-muted text-center">Effective Date: November 12, 2025</p>
+        <p class="text-muted text-center">Effective Date: November 18, 2025</p>
         <hr>
         <h2 class="text-primary mb-3">1. Information We Collect</h2>
         <p>Manga Chronicles collects personal information necessary to provide and improve our services. This data is
             collected when you create an account and use the application:</p>
         <ul class="list-group mb-4">
-            <li class="list-group-item"><strong>Personal Identifiers (via Google Sign-In):</strong>
+            <li class="list-group-item"><strong>Account Identifiers (via Email and Password Registration):</strong>
                 <ul>
-                    <li><strong>Email Address:</strong> Used for account creation, login, and security purposes.</li>
+                    <li><strong>Email Address:</strong> Required for account creation, login, and security purposes
+                        (e.g., password recovery).</li>
+                    <li><strong>Hashed Password:</strong> Your password is encrypted (hashed) and stored securely for
+                        authentication. We do not store or have access to your plain-text password.</li>
                     <li><strong>Display Name (Nickname):</strong> Used to personalize your experience and for displaying
                         alongside your created stories.</li>
-                    <li><strong>Profile Image (Avatar):</strong> Retrieved from Google and/o custom-uploaded.</li>
+                    <li><strong>Profile Image (Avatar):</strong> Custom-uploaded by the user.</li>
                 </ul>
             </li>
             <li class="list-group-item"><strong>User-Generated Content & AI Input Data:</strong>
                 <ul>
-                    <li>**Custom Profile Banner:** **The image you upload to personalize your profile banner.**</li>
-                    <li>**Story and Character Content:** The text of the stories and character data you create.</li>
-                    <li>**AI Prompts:** The text prompts used to generate AI covers and character art. These prompts are
-                        retained to allow you to regenerate or manage your content.</li>
+                    <li><strong>Custom Profile Banner:</strong> The image you upload to personalize your profile banner.
+                    </li>
+                    <li><strong>Story and Character Content:</strong> The text of the stories and character data you
+                        create.</li>
+                    <li><strong>AI Prompts:</strong> The text prompts used to generate AI covers and character art.
+                        These prompts are retained to allow you to regenerate or manage your content.</li>
                 </ul>
             </li>
             <li class="list-group-item"><strong>Usage and Activity Data (for App Functionality):</strong> Information
@@ -46,39 +51,41 @@
         <h2 class="text-primary mb-3">2. How We Use Your Information (Purposes & Legal Basis - GDPR)</h2>
         <p>We use the collected data for the following purposes:</p>
         <ul class="list-group mb-4">
-            <li class="list-group-item">To **manage your account** and provide access to the application (Legal Basis:
-                **Performance of a Contract**).</li>
-            <li class="list-group-item">To **store your generated content** (including the **profile banner**, stories,
-                characters, AI prompts) on Firebase (Legal Basis: **Performance of a Contract**).</li>
-            <li class="list-group-item">To **monetize the service** through advertisements (AdMob) and manage your
-                access to certain features (Legal Basis: **Legitimate Interest/Consent**).</li>
-            <li class="list-group-item">To **communicate with you** regarding service updates or security issues (Legal
-                Basis: **Legitimate Interest**).</li>
+            <li class="list-group-item">To <strong>manage your account</strong> and provide access to the application
+                (Legal Basis: <strong>Performance of a Contract</strong>).</li>
+            <li class="list-group-item">To <strong>store your generated content</strong> (including the <strong>profile
+                    banner</strong>, stories, characters, AI prompts) on Firebase (Legal Basis: <strong>Performance of a
+                    Contract</strong>).</li>
+            <li class="list-group-item">To <strong>monetize the service</strong> through advertisements (AdMob) and
+                manage your access to certain features (Legal Basis: <strong>Legitimate Interest/Consent</strong>).</li>
+            <li class="list-group-item">To <strong>communicate with you</strong> regarding service updates or security
+                issues (Legal Basis: <strong>Legitimate Interest</strong>).</li>
         </ul>
         <h2 class="text-primary mb-3">3. Third-Party Service Providers (Data Processors)</h2>
         <p>We rely on the following third-party services which may process your data on our behalf:</p>
         <ul class="list-group mb-4">
             <li class="list-group-item bg-light"><strong>Firebase (Google LLC) - Hosting and Backend:</strong> Used for
-                secure authentication (Firebase Auth), database services (Firestore/Realtime Database), and file storage
-                (Firebase Storage) to host user profiles, story data, and AI-generated images.</li>
+                secure authentication (<strong>Firebase Auth</strong>, including secure hashing of your password),
+                database services (Firestore/Realtime Database), and file storage (Firebase Storage) to host user
+                profiles, story data, and AI-generated images.</li>
             <li class="list-group-item bg-warning text-dark"><strong>Google AdMob - Advertising Services:</strong> We
                 use AdMob to display advertisements. AdMob collects device data, Advertising IDs, and approximate
                 location data to serve personalized ads and track ad performance.
-                <p class="mt-2 mb-0">**AdMob Consent Obligation:** By using this service, you acknowledge that Google
-                    may use data about your use of the app and other apps over time in order to serve more relevant
-                    advertisements. Your right to opt-out of personalized advertising is generally controlled via your
-                    device settings (e.g., "Limit Ad Tracking" on iOS or "Opt out of Ads Personalization" on Android).
-                </p>
+                <p class="mt-2 mb-0"><strong>AdMob Consent Obligation:</strong> By using this service, you acknowledge
+                    that Google may use data about your use of the app and other apps over time in order to serve more
+                    relevant advertisements. Your right to opt-out of personalized advertising is generally controlled
+                    via your device settings (e.g., "Limit Ad Tracking" on iOS or "Opt out of Ads Personalization" on
+                    Android).</p>
             </li>
         </ul>
         <h2 class="text-primary mb-3">4. Data Retention and Security</h2>
         <ul class="list-group mb-4">
-            <li class="list-group-item"><strong>Retention:</strong> We retain your personal data (Email, Nickname,
-                Content, Prompts) for as long as your account is active. If you request account deletion, we will delete
-                your data within 30 days, subject to legal obligations.</li>
+            <li class="list-group-item"><strong>Retention:</strong> We retain your personal data (Email, Hashed
+                Password, Nickname, Content, Prompts) for as long as your account is active. If you request account
+                deletion, we will delete your data within 30 days, subject to legal obligations.</li>
             <li class="list-group-item"><strong>Security:</strong> We utilize Firebase security features (e.g., secure
-                authentication, Firestore Security Rules) to protect your data. However, no internet transmission is
-                100% secure, and we cannot guarantee absolute security.</li>
+                authentication, <strong>password hashing</strong>, Firestore Security Rules) to protect your data.
+                However, no internet transmission is 100% secure, and we cannot guarantee absolute security.</li>
         </ul>
         <h2 class="text-primary mb-3">5. Your Data Protection Rights (GDPR)</h2>
         <p>If you are a resident of the European Economic Area (EEA), you have the right to access, rectify, port,
@@ -97,9 +104,9 @@
             <p><a href="/index.html">Home</a></p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous"></script>
 
 </html>
